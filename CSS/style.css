@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    padding-top: 10px;
+    margin: 0 auto;
+    height: 60px;
+    width: 100%;
+    background: #26292E;
+    color: white;
+}
+
+.wrapper {
+    width: 860px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 36px;
+    display: inline-block;
+    font-family: 'Cedarville Cursive', cursive;
+
+}
+
+.fa {
+    float: right;
+    margin-right: 8px;
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+    padding:5px 5px;
+    background: white;
+    color: black;
+}
+
+
+.fa-facebook:hover {
+background: #3B5998;
+color: white;
+
+}
+
+.fa-twitter:hover {
+background: #55ACEE;
+color: white;
+}
+
+.fa-rss:hover {
+    background: #F89839;
+    color: white;
+}
+
+a {
+    margin-left: 7px;
+}
+
+/* ~~~~~Prime Section~~~~~ */
+
+.half {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}
+
+.prime {
+    margin: 0 auto;
+    width: 100%;
+    height: 350px;
+    background: #E7718B;
+    color: white;
+
+}
+
+.clear-fix {
+    clear: both;
+
+}
+
+h2 {
+    font-size: 1.7em;
+    margin-top: 40px;
+}
+
+.half button {
+    margin-top: 10px;
+    height: 38px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 16px;
+    margin-right: 15px;
+    font-size: 16px;
+    background: #444444;
+    color: white;
+}
+
+button:hover {
+    border-top: solid 4px #777777;
+    border-right:solid 4px #444444;
+    border-left:solid 4px #444444;
+    border-bottom:solid 4px #444444;
+}
+
+.half img {
+    margin: 50px;
+}
+/* ~~~~~Prime Section~~~~~ */
+/* ~~~~~Info Section~~~~~ */
+
+.info {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    background: white;
+    color: #B0B0B2;
+}
+
+.third {
+    width: 33.33333%;
+    float: right;
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 45px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    color: #78787A;
+}
+
+.third img {
+    display: inline-block;
+    float: left;
+    margin-right: 7px;
+}
+
+.info p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 29px;
+}
+
+/* ~~~~~Info Section~~~~~ */
+/* ~~~~~Grabber Section~~~~~ */
+
+.grabber {
+    border-top: 5px solid #ddc1dd;
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    margin-top: 45px;
+    background: white;
+    color: #B0B0B2;
+}
+
+h4 {
+    display: block;
+    margin-top: 45px;
+    margin-bottom: -15px;
+    margin-left: 36px;
+    font-size: 20px;
+    color: #78787A;
+}
+
+.fourty h4 {
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #78787A;
+}
+
+.grabber img {
+    border: solid 8px #c7a9de;
+    margin: 40px;
+}
+
+.sixty {
+    width: 60%;
+    float: left;
+}
+
+.fourty {
+    width: 40%;
+    float: right;
+    padding-left: 60px;
+
+}
+
+.grabber p{
+    margin-bottom: 48px;
+}
+
+/* ~~~~~Grabber Section~~~~~ */
+/* ~~~~~Footer Section~~~~~ */
+
+.wrapper {
+    position: relative;
+}
+
+footer {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    background: #24242e;
+    color: white;
+}
+
+h5 {
+    display: inline-block;
+}
+
+.foot-fa {
+    display: inline-block;
+    margin-bottom: 15px;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 16px;
+}
